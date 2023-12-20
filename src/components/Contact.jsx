@@ -12,7 +12,7 @@ const Contact = () => {
 
   const inputClass = darkMode
     ? "shadow-lg placeholder-gray-500 my-4 rounded-[7px] p-2 bg-[#ccd6f6] "
-    : " shadow-lg placeholder-white my-4 rounded-[7px] p-2 bg-[#0d1f3b] ";
+    : " shadow-lg placeholder-white my-4 rounded-[7px] p-2 bg-[#EEE] ";
 
   const mobileIcon = darkMode
     ? "hover:scale-125 hover:text-red-600 transition ease-in-ou text-gray-300"

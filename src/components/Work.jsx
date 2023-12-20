@@ -7,7 +7,7 @@ import { WORK } from "../utils/workData";
 const Work = () => {
   const workCard =
     "shadow-lg shadow-[#040c16] hover:opacity-75 cursor-pointer group container rounded-md flex justify-center items-center mx-auto content-div";
-  const hovSpan = "text-3xl font-bold text-[#0a192f] tracking-wider ";
+  const hovSpan = "text-3xl font-bold text-[#000] tracking-wider ";
   const cardAnim =
     "opacity-0 transition ease-in-out delay-10 group-hover:opacity-100";
   const hovBtn =

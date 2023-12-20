@@ -31,7 +31,12 @@ const Alx = () => {
         <div className="max-w-[1000px]  w-full grid sm:grid-cols-2 gap-8 px-4 ">
           <div data-aos="fade-up" className="sm:text-right text-4xl font-bold">
             <p className="pt-3">
-              <img src={alx} alt="" />
+              <img
+                className="imgLife"
+                src={alx}
+                alt=""
+                style={{ width: "280px", height: "300px" }}
+              />
             </p>
           </div>
           <div data-aos="fade-right" className="leading-loose sm:my-[20px]">
